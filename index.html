@@ -4,7 +4,76 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
-  <body></body>
+  <body>
+    <section>
+      <div class="request">
+        <div class="request__body">
+          <div class="request__title"><h1>Оставить заявку</h1></div>
+          <div class="request__form">
+            <div>
+              <input
+                type="text"
+                name=""
+                id=""
+                placeholder="Ваше ФИО"
+                class="request__input"
+              />
+            </div>
+            <div>
+              <input
+                type="text"
+                name=""
+                id=""
+                placeholder="Название компании"
+                class="request__input"
+              />
+            </div>
+            <div>
+              <input
+                type="email"
+                name=""
+                id=""
+                placeholder="Ваша электронная почта"
+                class="request__input"
+              />
+            </div>
+            <div>
+              <input
+                type="tel"
+                name=""
+                id=""
+                placeholder="+7 (999) 999-99-99"
+                class="request__input"
+              />
+            </div>
+            <div>
+              <input
+                type="text"
+                name=""
+                id=""
+                placeholder="Опишите вашу потребность"
+                class="request__input"
+              />
+            </div>
+            <p class="request__form-text">
+              Если ваша потребность описана в файле, можете прикрепить его тут
+            </p>
+            <label class="request__button">
+              <input type="file" name="file" id="upload-file" hidden />
+              <img src="./img/Icon (1).svg" alt="" id="request-img" />
+              <span> Загрузить файл </span>
+            </label>
+            <span class="request__button-text">Файл не загружен</span>
+            <div class="request__button2">
+              <label>Оставить заявку</label>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./JS/main.js"></script>
+  </body>
 </html>
