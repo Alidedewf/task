@@ -12,7 +12,7 @@ fileInput.addEventListener("change", function () {
     buttonImg.remove();
   } else {
     buttonText.textContent = "Файл не загружен";
-    buttonLabel.return("active");
-    buttonLabel.return("active::before");
+    // buttonLabel.repeat("active");
+    // buttonLabel.repeat("active::before");
   }
 });
