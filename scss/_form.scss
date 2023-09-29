@@ -72,13 +72,13 @@ body {
     border: 1px solid white;
   }
 
-  &__button2 {
+  &__application-button {
     margin-top: 37px;
     margin-left: 200px;
   }
 
-  &__button2 label {
-    padding: 20px 50px;
+  &__application-button button {
+    padding: 20px 30px;
     color: white;
     display: inline-flex;
     align-items: center;
@@ -86,5 +86,7 @@ body {
     border-radius: 15px;
     background: #000;
     cursor: pointer;
+    font-family: "Sansation", sans-serif;
+    font-size: 17px;
   }
 }

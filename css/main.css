@@ -22,10 +22,10 @@ body {
   display: flex;
   padding-top: 170px;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-right: 180px;
   gap: 200px;
 }
@@ -80,8 +80,8 @@ body {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 15px;
   border-radius: 15px;
   background: #000;
@@ -103,21 +103,23 @@ body {
   background: #fff;
   border: 1px solid white;
 }
-.request__button2 {
+.request__application-button {
   margin-top: 37px;
   margin-left: 200px;
 }
-.request__button2 label {
-  padding: 20px 50px;
+.request__application-button button {
+  padding: 20px 30px;
   color: white;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 15px;
   border-radius: 15px;
   background: #000;
   cursor: pointer;
+  font-family: "Sansation", sans-serif;
+  font-size: 17px;
 }
